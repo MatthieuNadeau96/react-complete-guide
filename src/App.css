@@ -14,6 +14,25 @@
   font-size: 30px;
 }
 
-.transition {
-  transition: 300ms;
+.App button {
+  border: 1px solid blue;
+  padding: 12px;
+  background-color: green;
+  font: inherit;
+  color: white;
+  transition: 250ms;
+}
+
+.App button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  color: black;
+}
+
+.App button.Red {
+  background-color: red;
+}
+
+.App button.Red:hover {
+  background-color: salmon;
 }
