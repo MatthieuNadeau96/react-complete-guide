@@ -12,7 +12,7 @@
   font-size: 30px;
 }
 
-.Cockpit button {
+.Button {
   border: 1px solid blue;
   padding: 10px;
   background-color: green;
@@ -21,16 +21,16 @@
   transition: 250ms;
 }
 
-.Cockpit button:hover {
+.Button:hover {
   cursor: pointer;
   background-color: lightgreen;
   color: black;
 }
 
-.Cockpit button.Red {
+.Button.Red {
   background-color: red;
 }
 
-.Cockpit button.Red:hover {
+.Button.Red:hover {
   background-color: salmon;
 }
