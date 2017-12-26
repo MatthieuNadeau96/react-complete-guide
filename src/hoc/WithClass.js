@@ -7,5 +7,4 @@ const withClass = (WrappedComponent, className) => {
     </div>
   )
 }
-
 export default withClass;
