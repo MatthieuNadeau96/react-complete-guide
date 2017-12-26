@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import classes from './Person.css';
-import withClass from '../../../hoc/withClass';
+import withClass from '../../../hoc/WithClass';
 import Aux from '../../../hoc/Ax';
 
 class Person extends Component {
